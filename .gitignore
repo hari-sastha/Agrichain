@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic data
+.antigravity
+.gemini
+
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Production build output
+dist/
+dist-ssr/
+*.local
+
+# Environment files
+.env
+.env.production
+.env.staging
+!.env.example
+
+# IDE & Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.ds_store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
